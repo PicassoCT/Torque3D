@@ -430,15 +430,15 @@ bool NavPath::visitNext()
 
    if(dtStatusFailed(mQuery->findNearestPoly(from, extents, &mFilter, &startRef, NULL)) || !startRef)
    {
-      Con::errorf("No NavMesh polygon near visit point (%g, %g, %g) of NavPath %s",
-         start.x, start.y, start.z, getIdString());
+      //Con::errorf("No NavMesh polygon near visit point (%g, %g, %g) of NavPath %s",
+         //start.x, start.y, start.z, getIdString());
       return false;
    }
 
    if(dtStatusFailed(mQuery->findNearestPoly(to, extents, &mFilter, &endRef, NULL)) || !endRef)
    {
-      Con::errorf("No NavMesh polygon near visit point (%g, %g, %g) of NavPath %s",
-         end.x, end.y, end.z, getIdString());
+      //Con::errorf("No NavMesh polygon near visit point (%g, %g, %g) of NavPath %s",
+         //end.x, end.y, end.z, getIdString());
       return false;
    }
 
