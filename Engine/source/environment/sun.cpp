@@ -66,7 +66,7 @@ Sun::Sun()
    mSunAzimuth = 0.0f;
    mSunElevation = 35.0f;
    mCastShadows = true;
-   mStaticRefreshFreq = 250;
+   mStaticRefreshFreq = 66;
    mDynamicRefreshFreq = 8;
 
    mAnimateSun = false;

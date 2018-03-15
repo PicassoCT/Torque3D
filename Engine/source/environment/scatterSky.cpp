@@ -143,7 +143,7 @@ ScatterSky::ScatterSky()
    mBrightness = 1.0f;
 
    mCastShadows = true;
-   mStaticRefreshFreq = 8;
+   mStaticRefreshFreq = 66;
    mDynamicRefreshFreq = 8;
    mDirty = true;
 
