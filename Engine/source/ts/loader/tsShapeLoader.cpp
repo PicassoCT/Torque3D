@@ -309,11 +309,11 @@ void TSShapeLoader::recurseSubshape(AppNode* appNode, S32 parentIndex, bool recu
          else if (appNode->isBillboard() && (size != 0x7FFFFFFF))
          {
             // AutoBillboard detail
-            S32 numEquatorSteps = 4;
+            S32 numEquatorSteps = 6;
             S32 numPolarSteps = 0;
             F32 polarAngle = 0.0f;
             S32 dl = 0;
-            S32 dim = 64;
+            S32 dim = 128;
             bool includePoles = true;
 
             appNode->getInt("BB::EQUATOR_STEPS", numEquatorSteps);

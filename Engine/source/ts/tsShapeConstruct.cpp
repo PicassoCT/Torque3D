@@ -1657,8 +1657,8 @@ DefineTSShapeConstructorMethod( addImposter, S32, ( S32 size, S32 equatorSteps, 
    "when the camera is within 25 degrees of the pole.\n"
    "@return true if successful, false otherwise\n\n"
    "@tsexample\n"
-   "%this.addImposter( 2, 4, 0, 0, 64, false, 0 );\n"
-   "%this.addImposter( 2, 4, 2, 0, 64, true, 10 );   // this command would edit the existing imposter detail level\n"
+   "%this.addImposter( 1, 6, 0, 0, 128, 1, 0 );\n"
+   "%this.addImposter( 1, 6, 0, 0, 128, 1, 0 );   // this command would edit the existing imposter detail level\n"
    "@endtsexample\n" )
 {
    // Add the imposter detail level
